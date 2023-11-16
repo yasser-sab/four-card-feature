@@ -1,0 +1,70 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');*/
+@import "variables.css";
+@import "globals.css";
+
+.text {
+	width: 50%;
+	margin:0 auto;
+}
+
+.card-container {
+	margin-top: 4.125rem;
+}
+
+.card {
+	width: 21.875rem;
+	height: 16.667rem;
+	background-color: red;
+	border-radius: .333333rem;
+	padding: 2rem;
+	border-top: .2667rem solid transparent;
+	background-color: var(--white);
+	box-shadow: 0 10px 10px 1px var(--grayish-blue);
+}
+
+.card:first-of-type {border-color: var(--cyan);}
+.card:last-of-type {border-color: var(--orange);}
+.card:nth-of-type(2) {border-color: var(--red);}
+.card:nth-of-type(3) {border-color: var(--blue);}
+
+@media (max-width:23.4375rem) {
+
+	:root {
+		--fs:93.75%;
+	}
+
+	.fd-r {
+		flex-direction: column;
+	}
+
+	.flex {
+		gap:1.6667rem;
+	}
+
+	.text {
+		width: 95%;
+	}
+
+	.text p {
+		text-align: justify;
+	}
+
+	.card-container {
+		margin-top: 4.8125rem;
+	}
+
+	.card {
+		/*height: 13.875rem;*/
+		/*width: 19.4375rem*/
+	}
+
+	.container {
+		width: calc(100% - 32px * 2);
+	}
+
+	body {
+		display: block;
+		height: auto;
+		padding: 50px 0;
+	}
+}

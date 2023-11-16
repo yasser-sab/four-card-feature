@@ -1,0 +1,30 @@
+:root {
+
+/*start color vabiables*/
+
+--red: hsl(0, 78%, 62%);
+--cyan: hsl(180, 62%, 55%);
+--orange: hsl(34, 97%, 64%);
+--blue: hsl(212, 86%, 64%);
+
+--very-dark-blue: hsl(234, 12%, 34%);
+--grayish-blue: hsl(229, 6%, 66%);
+--very-light-gray: hsl(0, 0%, 98%);
+--white:#fff;
+
+/*end color vabiables*/
+
+
+/*start font vabiables*/
+78.125;
+/*--fs:15px;*/
+--fs:93.75%;
+/*--fs:70%;*/
+--ff:'Poppins', sans-serif;
+--fs-s:200;
+--fs-m:400;
+--fs-l:600;
+
+/*end font vabiables*/
+
+}

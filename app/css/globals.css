@@ -1,0 +1,83 @@
+html{
+	font-size: var(--fs);
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: var(--ff);
+	/*display: flex;*/
+	justify-content: center;
+	align-items: center;
+	/*height: 100vh;*/
+	background-color: var(--very-light-gray);
+	padding: 50px 0;
+}
+
+em {
+	display: block;
+	color: var(--grayish-blue);
+	font-weight: var(--fs-m);
+}
+
+p {
+	margin: 0;
+	color: var(--grayish-blue);
+	font-weight: var(--fs-s);
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+	color: var(--very-dark-blue);
+	font-weight: var(--fs-l);
+}
+
+img {
+	display: block;
+	height: 100%;
+	width: auto;
+}
+
+
+
+.flex {
+	display: flex;
+	gap:2rem;
+}
+
+.jc-sb {
+	justify-content: space-between;
+}
+
+.jc-c {
+	justify-content: center;
+}
+
+.ai-c {
+	align-items: center;
+}
+
+.fd-c {
+	flex-direction: column;
+}
+
+.fd-r {
+	flex-direction: row;
+}
+
+.as-fe {
+	align-self: flex-end;
+}
+
+.ta-c {
+	text-align: center;
+}
+
+.container {
+	width: calc(100% - (90px * 2));
+	/*margin: 0 auto;*/
+}
